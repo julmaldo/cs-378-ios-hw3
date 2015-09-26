@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		43925F8E1BB7008C009D2E77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43925F8D1BB7008C009D2E77 /* AppDelegate.swift */; };
-		43925F901BB7008C009D2E77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43925F8F1BB7008C009D2E77 /* ViewController.swift */; };
 		43925F931BB7008C009D2E77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43925F911BB7008C009D2E77 /* Main.storyboard */; };
 		43925F951BB7008C009D2E77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43925F941BB7008C009D2E77 /* Assets.xcassets */; };
 		43925F981BB7008C009D2E77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43925F961BB7008C009D2E77 /* LaunchScreen.storyboard */; };
 		43925FA31BB7008C009D2E77 /* MaldonadoJulio_hw3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43925FA21BB7008C009D2E77 /* MaldonadoJulio_hw3Tests.swift */; };
 		43925FAE1BB7008D009D2E77 /* MaldonadoJulio_hw3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43925FAD1BB7008D009D2E77 /* MaldonadoJulio_hw3UITests.swift */; };
+		43925FBC1BB70533009D2E77 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43925FBB1BB70533009D2E77 /* TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		43925F8A1BB7008C009D2E77 /* MaldonadoJulio-hw3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MaldonadoJulio-hw3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43925F8D1BB7008C009D2E77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		43925F8F1BB7008C009D2E77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43925F921BB7008C009D2E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43925F941BB7008C009D2E77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43925F971BB7008C009D2E77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		43925FA91BB7008D009D2E77 /* MaldonadoJulio-hw3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MaldonadoJulio-hw3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43925FAD1BB7008D009D2E77 /* MaldonadoJulio_hw3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaldonadoJulio_hw3UITests.swift; sourceTree = "<group>"; };
 		43925FAF1BB7008D009D2E77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43925FBB1BB70533009D2E77 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				43925F8D1BB7008C009D2E77 /* AppDelegate.swift */,
-				43925F8F1BB7008C009D2E77 /* ViewController.swift */,
 				43925F911BB7008C009D2E77 /* Main.storyboard */,
 				43925F941BB7008C009D2E77 /* Assets.xcassets */,
 				43925F961BB7008C009D2E77 /* LaunchScreen.storyboard */,
 				43925F991BB7008C009D2E77 /* Info.plist */,
+				43925FBB1BB70533009D2E77 /* TableViewController.swift */,
 			);
 			path = "MaldonadoJulio-hw3";
 			sourceTree = "<group>";
@@ -258,8 +258,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43925F901BB7008C009D2E77 /* ViewController.swift in Sources */,
 				43925F8E1BB7008C009D2E77 /* AppDelegate.swift in Sources */,
+				43925FBC1BB70533009D2E77 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
